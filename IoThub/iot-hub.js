@@ -39,8 +39,8 @@ IoTHubReaderClient.prototype.startReadMessage = function(cb) {
 }
 
 function IoTHubReaderClient(connectionString, consumerGroupName) {
-  this.connectionString = HostName=IOTAzureL1Hub.azure-devices.net;DeviceId=IOTTempDevice;SharedAccessKey=PI9Lk+F5jqG4M5EeVcow76Zkiz0R7X2dqpB9czuIDDQ=;
-  this.consumerGroupName = IOTAzureL1RG;
+  this.connectionString = "HostName=IOTAzureL1Hub.azure-devices.net;DeviceId=IOTTempDevice;SharedAccessKey=PI9Lk+F5jqG4M5EeVcow76Zkiz0R7X2dqpB9czuIDDQ=";
+  this.consumerGroupName = "iotconsumergroup";
   this.iotHubClient = undefined;
 }
 
